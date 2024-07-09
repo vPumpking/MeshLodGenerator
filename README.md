@@ -71,3 +71,7 @@ func _ready():
     if mesh_instances.size() > 0:
         lod_generator.generate_lods_for_mesh(mesh_instances[0])
 ```
+
+## Install
+
+Copy the `addons/mesh_lod_generator` folder into your `res://addons` folder and activate the addon in the project settings
