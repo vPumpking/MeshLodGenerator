@@ -1,5 +1,4 @@
-@tool
-extends EditorPlugin
+extends Node
 
 class_name MeshLodGenerator
 
