@@ -1,6 +1,6 @@
 
 # MeshLodGenerator
-[meshLodGenerator logo: a purple sphere with the right side smooth and the left side simplified](https://github.com/vPumpking/MeshLodGenerator/blob/main/icon.png)
+! [meshLodGenerator logo: a purple sphere with the right side smooth and the left side simplified](./icon.png)
 
 The `MeshLodGenerator` class is a Godot Editor plugin tool designed to generate Levels of Detail (LODs) for `MeshInstance3D` nodes within a scene. This class provides methods to find mesh instances and generate LODs for individual meshes or entire scenes.
 
