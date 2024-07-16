@@ -25,7 +25,7 @@ Generates LODs for a given `MeshInstance3D`.
 
 **Parameters:**
 - `mesh`: The `MeshInstance3D` for which to generate LODs.
-- `lod_bias`: The LOD bias value, going from 0.0 to 1.0. Default is `0.5`.
+- `lod_bias`: The LOD bias value, going from `0.0` to `1.0`. Default is `0.5`.
 - `normal_merge_angle`: The normal merge angle for LOD generation. Default is `25`.
 - `normal_split_angle`: The normal split angle for LOD generation. Default is `60`.
 
@@ -40,7 +40,7 @@ Generates LODs for all `MeshInstance3D` nodes within the given scene.
 
 **Parameters:**
 - `scene`: The root node of the scene for which to generate LODs.
-- `lod_bias`: The LOD bias value for all meshes in the scene, going from 0.0 to 1.0. Default is `0.5`.
+- `lod_bias`: The LOD bias value for all meshes in the scene, going from `0.0` to `1.0`. Default is `0.5`.
 - `normal_merge_angle`: The normal merge angle for LOD generation. Default is `25`.
 - `normal_split_angle`: The normal split angle for LOD generation. Default is `60`.
 
